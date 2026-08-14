@@ -1,0 +1,69 @@
+{
+    "goal": "make the whole school peaceful",
+    "schema": [
+        {
+            "id": "peer_mediation_sessions",
+            "title": "Peer Mediation Sessions",
+            "description": "Number of student conflicts resolved through peer mediation programs per week.",
+            "type": "count",
+            "target": 5,
+            "unit": "sessions"
+        },
+        {
+            "id": "mindfulness_minutes",
+            "title": "Daily Mindfulness Practice",
+            "description": "Minutes spent leading guided breathing or mindfulness exercises in homeroom.",
+            "type": "hours",
+            "target": 2,
+            "unit": "hours"
+        },
+        {
+            "id": "bullying_incident_reports",
+            "title": "Bullying Incident Reports",
+            "description": "Total number of formal bullying reports filed per month, aiming for reduction.",
+            "type": "number",
+            "target": 0,
+            "unit": "reports"
+        },
+        {
+            "id": "teacher_restorative_circles",
+            "title": "Restorative Justice Circles",
+            "description": "Number of restorative circles conducted by staff to address classroom disruptions.",
+            "type": "count",
+            "target": 4,
+            "unit": "circles"
+        },
+        {
+            "id": "student_climate_survey",
+            "title": "Student Safety Climate Survey",
+            "description": "Monthly percentage of students reporting they feel safe and respected at school.",
+            "type": "percentage",
+            "target": 90,
+            "unit": "%"
+        },
+        {
+            "id": "positive_behavior_referrals",
+            "title": "Positive Behavior Recognition",
+            "description": "Number of students acknowledged for acts of kindness and peaceful conflict resolution.",
+            "type": "count",
+            "target": 50,
+            "unit": "students"
+        },
+        {
+            "id": "mental_health_workshop_attendance",
+            "title": "Mental Health Workshops",
+            "description": "Attendance count for emotional regulation and stress management workshops.",
+            "type": "count",
+            "target": 3,
+            "unit": "workshops"
+        },
+        {
+            "id": "campus_safety_patrol",
+            "title": "Campus Safety Patrols",
+            "description": "Completed shifts by staff and student monitors in common areas during transition times.",
+            "type": "streak",
+            "target": 20,
+            "unit": "shifts"
+        }
+    ]
+}

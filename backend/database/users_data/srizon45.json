@@ -1,0 +1,67 @@
+{
+    "goal": "Geting A+ in the exam",
+    "schema": [
+        {
+            "id": "syllabus_completion",
+            "title": "Syllabus Completion",
+            "description": "Percentage of total exam syllabus covered and reviewed",
+            "type": "percentage",
+            "target": 100,
+            "unit": "%"
+        },
+        {
+            "id": "practice_exams_completed",
+            "title": "Practice Exams Completed",
+            "description": "Number of full-length mock exams completed under test conditions",
+            "type": "count",
+            "target": 10,
+            "unit": "exams"
+        },
+        {
+            "id": "daily_study_hours",
+            "title": "Daily Study Hours",
+            "description": "Number of focused study hours logged per day",
+            "type": "hours",
+            "target": 4,
+            "unit": "hours"
+        },
+        {
+            "id": "active_recall_sessions",
+            "title": "Active Recall Sessions",
+            "description": "Number of flashcard or active recall review sessions per week",
+            "type": "count",
+            "target": 14,
+            "unit": "sessions"
+        },
+        {
+            "id": "error_log_review",
+            "title": "Error Log Review",
+            "description": "Review and correct mistakes made in practice tests",
+            "type": "boolean"
+        },
+        {
+            "id": "study_streak",
+            "title": "Daily Study Streak",
+            "description": "Consecutive days of hitting the daily study goal",
+            "type": "streak",
+            "target": 30,
+            "unit": "days"
+        },
+        {
+            "id": "past_paper_average_score",
+            "title": "Past Paper Average Score",
+            "description": "Average percentage score achieved on recent past exam papers",
+            "type": "percentage",
+            "target": 90,
+            "unit": "%"
+        },
+        {
+            "id": "concept_clarity_score",
+            "title": "Concept Clarity Score",
+            "description": "Self-assessed mastery level of difficult core topics",
+            "type": "progress",
+            "target": 100,
+            "unit": "%"
+        }
+    ]
+}

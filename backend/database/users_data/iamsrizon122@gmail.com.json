@@ -1,0 +1,88 @@
+{
+    "goal": "Master the python",
+    "schema": [
+        {
+            "id": "coding_practice_hours",
+            "title": "Coding Practice Hours",
+            "description": "Dedicated hours spent writing Python code and building projects.",
+            "type": "hours",
+            "target": 10,
+            "unit": "hours",
+            "current_value": 10,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "algorithms_solved",
+            "title": "Algorithms Solved",
+            "description": "Number of LeetCode or HackerRank problems solved using Python.",
+            "type": "count",
+            "target": 5,
+            "unit": "problems",
+            "current_value": 5,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "projects_completed",
+            "title": "Projects Completed",
+            "description": "Fully functional Python applications built from scratch.",
+            "type": "number",
+            "target": 1,
+            "unit": "projects",
+            "current_value": 1,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "advanced_topics_mastered",
+            "title": "Advanced Topics Mastered",
+            "description": "Complex Python concepts studied such as decorators, generators, and metaclasses.",
+            "type": "progress",
+            "current_value": 100,
+            "progress": 100
+        },
+        {
+            "id": "daily_coding_streak",
+            "title": "Daily Coding Streak",
+            "description": "Consecutive days writing Python code without missing a day.",
+            "type": "streak",
+            "target": 7,
+            "unit": "days",
+            "current_value": 7,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "tests_written",
+            "title": "Unit Tests Written",
+            "description": "Number of test suites written using pytest or unittest.",
+            "type": "count",
+            "target": 10,
+            "unit": "tests",
+            "current_value": 10,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "code_review_participation",
+            "title": "Code Review Participation",
+            "description": "Read and refactored open source Python code or peer submissions.",
+            "type": "boolean",
+            "completed": true,
+            "current_value": 1,
+            "progress": 100
+        },
+        {
+            "id": "documentation_reading",
+            "title": "Documentation Reading",
+            "description": "Hours spent reading official Python documentation and PEP enhancement proposals.",
+            "type": "hours",
+            "target": 3,
+            "unit": "hours",
+            "current_value": 3,
+            "progress": 100,
+            "completed": true
+        }
+    ]
+}

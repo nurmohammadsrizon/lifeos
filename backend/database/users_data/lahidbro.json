@@ -1,0 +1,78 @@
+{
+    "goal": "Building An Aesthetic Body",
+    "schema": [
+        {
+            "id": "hypertrophy_workout_sessions",
+            "title": "Hypertrophy Workout Sessions",
+            "description": "Complete targeted resistance training sessions focusing on upper/lower or push/pull splits.",
+            "type": "count",
+            "target": 5,
+            "unit": "sessions",
+            "current_value": 5,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "daily_protein_intake",
+            "title": "Daily Protein Intake",
+            "description": "Consume at least 1.6 to 2.2 grams of protein per kilogram of body weight to support muscle growth.",
+            "type": "number",
+            "target": 180,
+            "unit": "grams"
+        },
+        {
+            "id": "caloric_target_adherence",
+            "title": "Caloric Target Adherence",
+            "description": "Hit your specific caloric surplus for bulking or deficit for cutting depending on your current phase.",
+            "type": "boolean"
+        },
+        {
+            "id": "cardio_sessions",
+            "title": "Cardio & Conditioning",
+            "description": "Perform zone 2 cardio or HIIT sessions to maintain low body fat and cardiovascular health.",
+            "type": "count",
+            "target": 3,
+            "unit": "sessions"
+        },
+        {
+            "id": "daily_water_intake",
+            "title": "Daily Water Intake",
+            "description": "Drink at least 3.5 liters of water daily for optimal muscle hydration and recovery.",
+            "type": "number",
+            "target": 3.5,
+            "unit": "liters"
+        },
+        {
+            "id": "sleep_duration",
+            "title": "Quality Sleep Duration",
+            "description": "Get a minimum of 7.5 to 8 hours of sleep per night for optimal muscle protein synthesis and recovery.",
+            "type": "hours",
+            "target": 8,
+            "unit": "hours"
+        },
+        {
+            "id": "mobility_and_stretching",
+            "title": "Mobility and Stretching",
+            "description": "Perform targeted stretching or foam rolling to improve posture and range of motion for lifts.",
+            "type": "count",
+            "target": 4,
+            "unit": "sessions"
+        },
+        {
+            "id": "physique_progress_photos",
+            "title": "Physique Progress Photos",
+            "description": "Take weekly fasted front, back, and side photos under consistent lighting to track aesthetic changes.",
+            "type": "streak",
+            "target": 1,
+            "unit": "weeks"
+        },
+        {
+            "id": "step_count",
+            "title": "Daily Step Count",
+            "description": "Maintain a high daily non-exercise activity thermogenesis (NEAT) by hitting a daily step goal.",
+            "type": "number",
+            "target": 10000,
+            "unit": "steps"
+        }
+    ]
+}

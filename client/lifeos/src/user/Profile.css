@@ -1,0 +1,318 @@
+.profile-page {
+    min-height: 100vh;
+    padding: 48px 20px 80px;
+    background: radial-gradient(circle at top left, rgba(96, 165, 250, 0.18), transparent 22%),
+        radial-gradient(circle at bottom right, rgba(236, 72, 153, 0.14), transparent 20%),
+        linear-gradient(180deg, rgba(2, 6, 23, 0.93), rgba(10, 15, 30, 0.98));
+    color: #e2e8f0;
+}
+
+.profile-shell {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.profile-hero {
+    margin-bottom: 28px;
+}
+
+.profile-card,
+.photo-panel,
+.details-panel,
+.security-panel,
+.profile-loading {
+    background: rgba(15, 23, 42, 0.84);
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    box-shadow: 0 26px 80px rgba(2, 6, 23, 0.38);
+    backdrop-filter: blur(16px);
+}
+
+.hero-panel {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 28px;
+    align-items: center;
+    border-radius: 30px;
+    padding: 28px;
+}
+
+.profile-avatar-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-avatar {
+    width: 142px;
+    height: 142px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid rgba(147, 197, 253, 0.5);
+    background: linear-gradient(135deg, #2563eb, #7c3aed, #ec4899);
+    box-shadow: 0 18px 40px rgba(124, 58, 237, 0.28);
+    display: grid;
+    place-items: center;
+}
+
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-avatar span {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+}
+
+.profile-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.profile-pill {
+    display: inline-flex;
+    align-self: flex-start;
+    background: rgba(16, 185, 129, 0.12);
+    color: #a7f3d0;
+    border: 1px solid rgba(52, 211, 153, 0.2);
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.profile-summary h1 {
+    margin: 0;
+    font-size: clamp(2.2rem, 4vw, 3.2rem);
+}
+
+.profile-summary p {
+    margin: 0;
+    color: rgba(191, 219, 254, 0.8);
+    line-height: 1.75;
+    max-width: 640px;
+}
+
+.summary-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    color: #bfdbfe;
+    font-size: 0.9rem;
+}
+
+.profile-section {
+    width: 100%;
+}
+
+.profile-form {
+    display: grid;
+    gap: 24px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 22px;
+}
+
+.photo-panel,
+.details-panel,
+.security-panel {
+    border-radius: 28px;
+    padding: 22px 20px;
+}
+
+.panel-heading {
+    margin-bottom: 18px;
+}
+
+.panel-heading h3 {
+    margin: 0;
+    font-size: 1.35rem;
+}
+
+.upload-box {
+    height: 220px;
+    border-radius: 24px;
+    background: linear-gradient(180deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.9));
+    border: 1px dashed rgba(148, 163, 184, 0.22);
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.upload-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.upload-placeholder {
+    color: rgba(191, 219, 254, 0.7);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 0.78rem;
+}
+
+.upload-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 44px;
+    border-radius: 14px;
+    background: rgba(59, 130, 246, 0.12);
+    border: 1px solid rgba(147, 197, 253, 0.2);
+    color: #e0f2fe;
+    cursor: pointer;
+    margin-bottom: 18px;
+    position: relative;
+    overflow: hidden;
+}
+
+.upload-button input {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.field-row {
+    display: grid;
+    gap: 16px;
+}
+
+.two-col {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-field label {
+    font-weight: 600;
+    color: #cbd5e1;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    border-radius: 14px;
+    background: rgba(15, 23, 42, 0.8);
+    color: #f8fafc;
+    padding: 12px 14px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-field input::placeholder,
+.form-field textarea::placeholder {
+    color: rgba(148, 163, 184, 0.7);
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+    border-color: rgba(96, 165, 250, 0.65);
+    box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.1);
+}
+
+.form-field textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.security-panel {
+    display: grid;
+    gap: 12px;
+}
+
+.status-box {
+    border-radius: 18px;
+    padding: 14px 16px;
+    font-weight: 600;
+}
+
+.status-box.success {
+    background: rgba(16, 185, 129, 0.12);
+    border: 1px solid rgba(52, 211, 153, 0.3);
+    color: #a7f3d0;
+}
+
+.status-box.error {
+    background: rgba(239, 68, 68, 0.12);
+    border: 1px solid rgba(248, 113, 113, 0.32);
+    color: #fecaca;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.save-button {
+    border: none;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed, #ec4899);
+    color: white;
+    min-height: 48px;
+    padding: 0 22px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 18px 34px rgba(124, 58, 237, 0.22);
+    transition: transform 0.2s ease;
+}
+
+.save-button:hover {
+    transform: translateY(-2px);
+}
+
+.profile-loading {
+    border-radius: 24px;
+    padding: 30px;
+    max-width: 500px;
+    margin: 80px auto;
+    text-align: center;
+    color: #bfdbfe;
+}
+
+@media (max-width: 900px) {
+
+    .hero-panel,
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .two-col {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 560px) {
+    .profile-page {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .hero-panel,
+    .photo-panel,
+    .details-panel,
+    .security-panel {
+        border-radius: 22px;
+    }
+
+    .profile-avatar {
+        width: 110px;
+        height: 110px;
+    }
+}

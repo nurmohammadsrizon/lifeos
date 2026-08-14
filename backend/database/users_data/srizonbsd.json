@@ -1,0 +1,88 @@
+{
+    "goal": "Geting A+ in the exam",
+    "schema": [
+        {
+            "id": "practice_exams_completed",
+            "title": "Practice Exams Completed",
+            "description": "Number of full-length timed mock exams completed and reviewed",
+            "type": "count",
+            "target": 10,
+            "unit": "exams",
+            "current_value": 10,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "daily_study_hours",
+            "title": "Daily Study Hours",
+            "description": "Focused, distraction-free study time dedicated to exam material",
+            "type": "hours",
+            "target": 4,
+            "unit": "hours",
+            "current_value": 4,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "active_recall_sessions",
+            "title": "Active Recall Sessions",
+            "description": "Flashcard or blank-sheet testing sessions completed per week",
+            "type": "count",
+            "target": 14,
+            "unit": "sessions",
+            "current_value": 14,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "topic_mastery_percentage",
+            "title": "Topic Mastery Percentage",
+            "description": "Percentage of syllabus topics understood and verified via self-testing",
+            "type": "percentage",
+            "target": 100,
+            "unit": "%",
+            "current_value": 100,
+            "progress": 100
+        },
+        {
+            "id": "error_log_review",
+            "title": "Error Log Review",
+            "description": "Reviewing and correcting all mistakes made in practice tests",
+            "type": "boolean",
+            "completed": true,
+            "current_value": 1,
+            "progress": 100
+        },
+        {
+            "id": "feynman_technique_explanations",
+            "title": "Feynman Technique Explanations",
+            "description": "Complex concepts explained simply out loud to ensure deep comprehension",
+            "type": "count",
+            "target": 20,
+            "unit": "topics",
+            "current_value": 20,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "study_streak",
+            "title": "Daily Study Streak",
+            "description": "Consecutive days maintaining the daily study goal",
+            "type": "streak",
+            "target": 30,
+            "unit": "days",
+            "current_value": 30,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "sleep_schedule_adherence",
+            "title": "Sleep Schedule Adherence",
+            "description": "Getting at least 7-8 hours of sleep before study days for optimal retention",
+            "type": "boolean",
+            "completed": true,
+            "current_value": 1,
+            "progress": 100
+        }
+    ]
+}

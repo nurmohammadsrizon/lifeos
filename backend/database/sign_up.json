@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "email": "iamsrizon122@gmail.com",
+    "username": "srizonbro",
+    "fullname": "MD Srizon",
+    "password_hash": "3a618a2e5f2e8cd4b6bebf75e80604877bd1cabae9588a79f2ebba35c672c960",
+    "salt": "ac7177be4d17ab9a09162a8c88f9bda5",
+    "profile_picture": "http://127.0.0.1:8000/uploads/files/users/srizonbro/profile_picture.png",
+    "bio": "To do anything secrifice something ",
+    "phone": "01400187252",
+    "location": "Mymensingh",
+    "website": "https://guns.lol/srizonbro"
+  },
+  {
+    "id": 2,
+    "email": "mdsrizon124@gmail.com",
+    "username": "lahidbro",
+    "fullname": "MD LAHID",
+    "password_hash": "a6aa00f7f80da0f2e817cdbc2356b5a9e826825200dbc754de6666a5fb8d58f4",
+    "salt": "5664b6cab7305ef2c558d1b689f368ae",
+    "profile_picture": "http://127.0.0.1:8000/uploads/files/users/lahidbro/profile_picture.png",
+    "bio": "afdadfasdfasd",
+    "phone": "01400187252",
+    "location": "Mymensingh",
+    "website": "https://guns.lol/srizonbro"
+  },
+  {
+    "id": 3,
+    "email": "notsrizon@gmail.com",
+    "username": "srizonbsd",
+    "fullname": "Md Srizon",
+    "password_hash": "92797e3ef0b32e742f376150c69493fab7433ad5edb555b6573eae1c026a385c",
+    "salt": "353aaa9fbb4e3cc81a110d264783e470"
+  }
+]

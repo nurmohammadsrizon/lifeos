@@ -1,0 +1,69 @@
+{
+    "goal": "Building a free fire tournament app for bangladesh",
+    "schema": [
+        {
+            "id": "market_research",
+            "title": "Market and Competitor Analysis",
+            "description": "Analyze existing Free Fire local tournament apps in Bangladesh to identify feature gaps.",
+            "type": "progress"
+        },
+        {
+            "id": "ui_ux_wireframes",
+            "title": "UI/UX Wireframes Creation",
+            "description": "Design user interface screens for registration, match room details, and wallet/prizes.",
+            "type": "percentage",
+            "target": 100,
+            "unit": "%"
+        },
+        {
+            "id": "core_coding_hours",
+            "title": "Core App Development",
+            "description": "Spend dedicated hours coding the frontend and backend of the application.",
+            "type": "hours",
+            "target": 120,
+            "unit": "hours"
+        },
+        {
+            "id": "firebase_backend_setup",
+            "title": "Database and Auth Integration",
+            "description": "Set up authentication via phone number/Google and real-time database for tournament lobbies.",
+            "type": "boolean"
+        },
+        {
+            "id": "payment_gateway_integration",
+            "title": "Local Payment Integration",
+            "description": "Integrate Bangladeshi mobile financial services like bKash, Nagad, and Rocket for entry fees and payouts.",
+            "type": "boolean"
+        },
+        {
+            "id": "bug_testing_sessions",
+            "title": "Bug Fixing and QA Sessions",
+            "description": "Conduct thorough testing of match room creation and score submission workflows.",
+            "type": "count",
+            "target": 15,
+            "unit": "sessions"
+        },
+        {
+            "id": "beta_testers_recruited",
+            "title": "Beta Testers Onboarded",
+            "description": "Recruit local Free Fire players to test tournament matchmaking and custom room ID distribution.",
+            "type": "number",
+            "target": 50,
+            "unit": "users"
+        },
+        {
+            "id": "daily_coding_streak",
+            "title": "Daily Development Streak",
+            "description": "Maintain consecutive days of writing code or resolving app issues.",
+            "type": "streak",
+            "target": 30,
+            "unit": "days"
+        },
+        {
+            "id": "play_store_deployment",
+            "title": "Google Play Store Submission",
+            "description": "Prepare app assets, privacy policy, and submit the app for Google Play Store review.",
+            "type": "boolean"
+        }
+    ]
+}
