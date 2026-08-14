@@ -11,6 +11,14 @@ from starlette.middleware.httpsredirect import HTTPSRedirectMiddleware
 from fastapi.middleware.cors import CORSMiddleware
 # from backend.analyzation.ai_analization import main_router as ai_analization_router
 from analyzation.ai_analization import main_router as ai_analization_router
+import os
+from pathlib import Path
+
+# Make sure the path exists before mounting
+UPLOADS_STATIC_PATH = Path("uploads/files")
+UPLOADS_STATIC_PATH.mkdir(parents=True, exist_ok=True)
+
+app.mount("/uploads/files", StaticFiles(directory=str(UPLOADS_STATIC_PATH), html=False), name="uploads_files")
 
 BASE_DIR = pathlib.Path(__file__).resolve().parent
 PROJECT_ROOT = BASE_DIR.parent
