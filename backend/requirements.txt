@@ -1,6 +1,6 @@
 ﻿# Generated from actual project imports
 # Recommended Python: 3.11 or 3.12
-fastapi==0.104.1
+fastapi>=0.110.0
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 python-dotenv==1.0.0
@@ -10,8 +10,6 @@ fastapi-mail==1.4.1
 email-validator==2.1.0
 
 # Validation / schemas
-pydantic==2.5.0
-pydantic[email]==2.5.0
 
 # Google AI / Gemini
 google-genai==1.0.0
